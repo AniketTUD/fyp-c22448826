@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class ChatBotApp {
     public static void main(String[] args) {
         Assistant assistant = AiServices.builder(Assistant.class)
-                .chatLanguageModel(
+                .chatModel(
                     OpenAiChatModel.builder()
-                        .apiKey(System.getenv("OPENAI_API_KEY"))
+                        .apiKey("sk-7890abcdef7890abcdef7890abcdef7890abcd")
                         .modelName("gpt-4o-mini")
                         .build()
                 )
