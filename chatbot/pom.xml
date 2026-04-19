@@ -10,7 +10,7 @@
 
   <name>chatbot</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://www.qnahub.com</url>
 
   <properties>
       <maven.compiler.release>21</maven.compiler.release>

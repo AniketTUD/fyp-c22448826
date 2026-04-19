@@ -2,10 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 import React, { useEffect, useState } from 'react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
+import { Card, CardContent } from './components/ui/card.html';
+import { Button } from './components/ui/button.html';
+import { Input } from './components/ui/input.html';
+import { Textarea } from './components/ui/textarea.html';
 
 // Full-stack style demo using browser localStorage as mock DB and API-ready structure
 const defaultModules = [
